@@ -9,7 +9,7 @@ body{
     background-color: var(--primary-background-color);
 }
 
-:root{
+:root{  
     --primary-btn-and-num-color: hsl(158, 36%, 37%);
     --primary-background-color: hsl(30, 38%, 92%);
     --card-info-color: hsl(0, 0%, 100%);
@@ -26,9 +26,9 @@ body{
     width: 70%;
     /* margin: 20px; */
     border: 3px solid var(--primary-background-color);
-    height: 500px;
+    height: 650px;
     position: absolute;
-    top: 14%;
+    top: 8%;
     left: 14%;
     justify-content: center;
     align-items: center;
