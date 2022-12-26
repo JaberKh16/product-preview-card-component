@@ -10,7 +10,7 @@ body{
 }
 
 :root{
-    --primary-btn--and-num-color: hsl(158, 36%, 37%);
+    --primary-btn-and-num-color: hsl(158, 36%, 37%);
     --primary-background-color: hsl(30, 38%, 92%);
     --card-info-color: hsl(0, 0%, 100%);
 }
@@ -23,13 +23,13 @@ body{
 
 .card-container{
     display: flex;
-    width: 50%;
+    width: 70%;
     /* margin: 20px; */
     border: 3px solid var(--primary-background-color);
     height: 500px;
     position: absolute;
     top: 14%;
-    left: 24%;
+    left: 14%;
     justify-content: center;
     align-items: center;
 }
@@ -37,7 +37,7 @@ body{
 
 
 .card-image img:nth-last-of-type(1){
-    height: 620px;
+    height: 625px;
     width: 380px;
     border-radius: 15px 0px 0px 15px;
 }
@@ -49,10 +49,10 @@ body{
 
 
 .card-info{
-    width:50%;
+    width:39%;
     background-color: var(--card-info-color);
     padding: 3% 7%;
-    height: 620px;
+    height: 625px;
     border-radius: 0px 15px 15px 0px;
     /* word-spacing: 5pt; */
 }
@@ -61,14 +61,14 @@ body{
     text-transform: uppercase;
     color: hsl(228, 12%, 48%);
     letter-spacing: 6px;
-    margin: 30px 0px;
+    margin: 25px 0px;
     font-family:'Montserrat', sans-serif;  
 }
 
 .card-info > h2:nth-of-type(2){
     font-size: 46px;
     font-weight: 700px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-family:'Montserrat', sans-serif;  
 }
 
@@ -77,7 +77,7 @@ body{
     color: hsl(228, 12%, 48%);
     word-spacing: 4px;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -89,7 +89,7 @@ body{
 }
 
 .card-info .price-tag > h4:nth-of-type(1){
-    color: var(--primary-btn--and-num-color);
+    color: var(--primary-btn-and-num-color);
     font-size: 45px;
     font-family: 'Fraunces', serif;
     padding-right: 25px;
@@ -109,15 +109,19 @@ body{
 
 .card-info .btn{
     width: 100%;
-    padding: 15px 60px;
-    margin-top: 30px;
+    padding: 15px 55px;
+    margin-top: 25px;
     font-size: 25px;
     font-weight: 600px;
-    background-color: var(--primary-btn--and-num-color);
+    background-color: var(--primary-btn-and-num-color);
     color: #fff;
     border-radius: 8px;
     outline: none;
     border: none;
+}
+
+.card-info .btn:hover{
+    background-color: hsl(158, 60%, 18%);
 }
 
 
@@ -158,23 +162,19 @@ body{
 
     .card-info{
         width:70%;
-        height: 580px;
+        height: 525px;
         border-radius: 0px 0px 15px 15px;
         /* word-spacing: 5pt; */
     }
 
-    /* .card-info .btn{
-        position: relative;
-    
-    } */
+    .card-info .btn:hover{
+        background-color: hsl(158, 60%, 18%);
+    }    
 
     .attribution { 
         position: fixed;
-        bottom: 4
-        
-        %;
+        bottom: 4%;
         left: 6%;
     }
-
     
 }
