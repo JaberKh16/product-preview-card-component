@@ -23,12 +23,12 @@ body{
 
 .card-container{
     display: flex;
-    width: 70%;
+    width: 80%;
     /* margin: 20px; */
     border: 3px solid var(--primary-background-color);
-    height: 650px;
+    /* height: 75%; */
     position: absolute;
-    top: 8%;
+    top: 10%;
     left: 14%;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ body{
 
 
 .card-image img:nth-last-of-type(1){
-    height: 625px;
+    height: 631.5px;
     width: 380px;
     border-radius: 15px 0px 0px 15px;
 }
@@ -49,10 +49,10 @@ body{
 
 
 .card-info{
-    width:39%;
+    width:35%;
     background-color: var(--card-info-color);
-    padding: 3% 7%;
-    height: 625px;
+    padding: 2% 7%;
+    /* height: 100%; */
     border-radius: 0px 15px 15px 0px;
     /* word-spacing: 5pt; */
 }
